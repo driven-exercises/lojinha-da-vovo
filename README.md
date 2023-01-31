@@ -4,13 +4,13 @@
     2. Execute o seguinte comando para criar o banco de dados no seu computador:
         
         ```bash
-        bash ./create-database
+        sudo bash ./create-database
         ```
         
     3. Execute o seguinte comando para conectar-se ao banco de dados:
         
         ```bash
-        bash ./connect-database
+        sudo bash ./connect-database
         ```
         
 
