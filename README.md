@@ -1,4 +1,6 @@
-- Antes de começar
+# Lojinha da Vovó
+
+Antes de começar:
         
     1. Entre na pasta `exercicio_sql_8e64656a` e abra um terminal nela.
     2. Execute o seguinte comando para criar o banco de dados no seu computador:
