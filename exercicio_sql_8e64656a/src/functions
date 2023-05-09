@@ -27,7 +27,7 @@ runScripts () {
  
   for f in scripts/*; do
     echo "Executando script $f...$1 // $2";
-    cp -r $2 /tmp/$1
+    cp -r "$2" /tmp/$1
     cd /tmp/$1
     # sudo su -c "psql -d $1 -f $f" postgres;
     sudo -iu postgres psql $1 -c "\i /tmp/$1/$f";

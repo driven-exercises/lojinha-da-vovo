@@ -12,4 +12,4 @@ echo "Criando banco de dados..." &&
 createDatabase $DATABASE &&
 
 echo "Executando scripts..." &&
-runScripts $DATABASE $USERFILE;
+runScripts $DATABASE "$USERFILE";
